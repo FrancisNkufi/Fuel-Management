@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #f5a623, #f76b1c, #fa2e7c, #8e44ad, #2c3e50);
+            background-size: 300% 300%;
+            animation: gradientBG 15s ease infinite;
+            color: #fff;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .container img {
+            max-width: 50%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="brochure1.png" alt="Coming Soon Image">
+        <h1>Brochure Coming Soon</h1>
+        <p>iFMS Brochure is Being Updated with Latest Technology. Stay tuned!</p>
+    </div>
+</body>
+</html>
