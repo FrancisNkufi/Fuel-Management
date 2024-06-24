@@ -157,10 +157,10 @@
 })();
 
  // Initialize EmailJS with your user ID
- emailjs.init('z91E1S2bwBR0irwXg');
+ emailjs.init('xxx');
   
  // Submit form using EmailJS
- $('#contactForm').on('submit', function(event) {
+ $('#sendButton').on('submit', function(event) {
    event.preventDefault(); // Prevent default form submission
 
    let sendButton = $('#sendButton');
@@ -176,7 +176,7 @@
    };
 
    // Send email using EmailJS API
-   emailjs.send('mail.i-fms.co.za', 'template_3nj9ozj', formData)
+   emailjs.send('xxxxx', 'xxxxx', formData)
          .then(function(response) {
              alert('Email sent successfully!');
              $('#contactForm')[0].reset(); // Reset form
